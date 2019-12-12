@@ -51,7 +51,7 @@ function hideSpinnerIndex(message) {
         let overlay = document.getElementById('overlay');
         overlay.style.display = 'none';
         overlay.innerHTML = showSpinner();
-        contentLoaded(message);
+        if (initialSourcesLanguageJSON.sources !== undefined) {contentLoaded(message);}
     }, 3000)
 }
 

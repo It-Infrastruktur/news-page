@@ -51,9 +51,8 @@ export function reloadPageSnackbar() {
 }
 
 export function reloadPageOnError(reason) {
-    return `<p> An error occured: ${reason}</p>
-                <br/>
-                <p> Please reload the Page </p>
+    return `<p> An error occured</p>
+                <p> Please </p>
             <button class="btn btn-primary" type="button" id="reloadPage">Reload Page</button>`
 }
 
